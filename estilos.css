@@ -1,0 +1,85 @@
+*{
+	font-family: 'pixeles';
+	font-size: 20px;
+}
+
+@font-face{
+	font-family: 'pixeles';
+	src: url("pixelates.ttf");
+}
+
+
+body{
+	background: url(oxxo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-evenly;
+	height: 105px;
+	margin-top: 5%;
+	gap: 30px;
+	
+	background-color: rgba(138, 126, 217, 0.6);
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+}
+
+.form {
+	margin: auto;
+	margin-top: 250px;
+	display: flex;
+	height: 500px;
+	width: 500px;
+	flex-direction: column;
+	background-color: rgba(138, 126, 217, 0.6);
+	border-radius: 4px;
+	align-items: center;
+
+}
+
+
+.form h1 {
+	font-size: 200%;
+	margin: 40px auto;
+	color: #222059;
+}
+
+
+input {
+	color: #222070;
+	width: 75%;
+	height: 35px;
+	margin: auto;
+	border: none;
+	border-bottom: solid #222059;
+	background-color: #9BC1F2;
+}
+
+input::placeholder {
+  	color: #222070;
+}
+
+input[type="submit"] {
+	color: #9BC1F2;
+	width: 80%;
+	height: 50px;
+	background-color: #222059;
+	border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+	background-color: #222070;
+}
+
